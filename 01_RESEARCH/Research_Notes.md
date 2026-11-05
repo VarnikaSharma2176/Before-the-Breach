@@ -121,3 +121,83 @@ The project should therefore examine:
 > **What does the model's performance actually tell us, and what does it fail to tell us?**
 
 This question should remain central throughout the research process.
+
+## 7. Network Intrusion Detection Fundamentals
+
+A network intrusion detection system (NIDS) monitors netword traffic and attempts to identify malicious or suspicious activity.
+
+In a machine learning-based IDS, network traffic is represented using measurable features such as flow duration, packet counts, byte counts, packet length, protocol information, timing characteristics, and other traffic statistics.
+
+The general predictive pipeline is: 
+Network Traffic -> Features -> Preprocessing -> ML Model -> Predicted Class
+## 8.Binary vs Multiclass Detection
+
+Binary classification odentifies whether traffic is:
+-Benign
+-Malicious
+
+Multiclass classification identifies the specific class of traffic, such as benign traffic or different attack categories.
+
+Multiclass detection may provide greater research depth because models may perform differently across common and rare attacks.
+
+## 9. Signature-Based vs Anomaly-Based Detection
+
+Signature based detection identifies known attack patterns or signatures. It can be effective for known attacks but is limited when an attack does not match an existing signature.
+
+Anomaly-based detection attempts to identify traffic that differs from expected behaviour. Machine learning can learn statistical patterns from historical traffic, although unusual legitimate traffic can also produce false positives.
+
+## 10. Class Imbalance
+
+Network intrusion datsets may contain substantially different number of records across traffic or attack classes.
+
+A model trained on imbalanced data may favor majority classes and perform poorly on minority traffic or attack classes.
+
+Therefore, high overall accuracy does not necessarily indicate reliable intrusion detection.
+
+Relevant evaluation measures include:
+-Precision
+-Recall
+-F1-score
+-Confusion Matrix
+-Class-wise performance
+ROC-AUC where applicable
+
+## 11. Dataset Variability and Generalization
+
+Differnt intrusion datasets may differ in:
+-Network environment
+-Traffic characteristics
+-Attack scenarios
+-Feature dimensions
+-Class distributions
+-Data collection methodology
+
+A model may therefore perform stronly on one dataset but differently on another dataset with different characteristics.
+
+Generalization will therefore be considered during dataset and methodology selection.
+
+## 12. Model Comparison Requirement
+
+The project must implement and compare at least 4-5 suitable machine learning classification models.
+
+The final model will be selected after considering:
+-Dataset characteristics
+-Research literature
+-Model suitability
+-Computational feasibility
+-Relevance to the research question
+
+The models will be evaluated under comaprable experimental conditions.
+
+## 13. Current Research Consideration
+
+The current investigation focuses on:
+1. Class Imbalance
+2. Data Preprocessing
+3. Feature Representation
+4. Dataset characteristics and variability
+5. Model comparison
+6. Class-wise Performance
+7. Generalization where feasible
+
+These are currently research considerationsrather than finalized experimental variables. The final methodology will be determined after dataset and literature investigation.

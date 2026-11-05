@@ -77,3 +77,35 @@ The final research question will be selected only after:
 4. Feasibility assessment
 
 This is intentional. The project should be driven by an evidence-based research question rather than choosing a question first and forcing the dataset and methodology to fit it.
+
+## Phase-2: Refined Research Direction
+
+## Refined Provisional Research Question
+
+How do class imbalance, data preprocessinh, feature representation, and dataset characteristics affect the performance and generalization of machine learning model for next network intrusion detection.
+
+This remains provsional until the literature review and dataset investigation are completed.
+
+## Additional Model COmparison Questions
+
+1. How do at least 4-5 machine learning classification models compare for netword intrusion detection?
+2. Do different models perfrom differently across common and minority attack classes?
+3. Which models provide the best balance between overall performance and minority-class detection?
+
+## Additional Evaluation Questions
+
+1. How different are models conclusions when accuracy is compared with precision, recall, F1-score, and other appropriate metrics?
+2. Which evaluation measures provide the most useful indication of practical intrusion detection performance?
+3. How do false positivs and false negatives vary between the selected models?
+
+## Implementation Constraints
+
+The project will be implemented in Python using Jupyter Notebooks, with a minimum of 4-5 suitable machine learning classification models.
+
+## Research Question Status
+
+The final research question will be established after:
+-Dataset investigation
+-Literature review
+-Research-gap identification
+-Feasibility assessment

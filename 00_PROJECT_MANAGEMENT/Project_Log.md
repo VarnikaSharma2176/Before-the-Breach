@@ -62,3 +62,17 @@
 **Outcome:** Initial research questions documented. The final research question remains open.
 
 **Next Step:** Refine the research questions after studying existing research and candidate datasets.
+
+### Entry 05
+
+**Date:** 05 November 2026
+
+**Phase:** Research and Topic Exploration
+
+**Activity:** Finalized the project topic and problem direction and established Python with Jupyter Notebook as the implementation environment. Confirmed the requirement to implement and compare at least 4-5 machine learning classification models.
+
+**Relevance:** These decisions define the projet's implementation environment, experimental scope, model comparison strategy, and research methodology.
+
+**Outcome:** The project will investigate network intrusion detection under class imbalance and dataset variability using comparative evaluation of at least 4-5 suitable ML models and multiple performance metrics.
+
+**Next Step:** Investigate candidate network intrusion datasets and relevamt research literature before finalizing the research questiob, dataset, models, and experimental design.
